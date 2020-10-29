@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/ingredientLinearTopPadding">
+
+        <TextView
+            android:id="@+id/ingredientNameTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="70"
+            android:gravity="start"
+            android:paddingStart="@dimen/ingredientPadding"
+            android:text="@string/ingredient_1"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="@dimen/ingredientTextSize" />
+
+        <TextView
+            android:id="@+id/ingredientMeasureTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:gravity="start"
+            android:paddingStart="@dimen/ingredientPadding"
+            android:text="@string/_250g"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="@dimen/ingredientTextSize" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/ingredientMargin"
+        android:layout_marginRight="@dimen/ingredientMargin"
+        android:background="@android:color/black" />
+
+
+</LinearLayout>
+
+</layout>

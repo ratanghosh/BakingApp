@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="cardView_bottom_margin">8dp</dimen>
+    <dimen name="cardCornerRadius">8dp</dimen>
+    <dimen name="RecipeTitleTextSize">32sp</dimen>
+    <dimen name="ingredientsTextSize">18sp</dimen>
+    <dimen name="ingredientsBottomPadding">4dp</dimen>
+    <dimen name="view_height">8dp</dimen>
+    <dimen name="viewMargin">16dp</dimen>
+    <dimen name="tvBottomPadding">4dp</dimen>
+    <dimen name="stepsTitleTextSize">20sp</dimen>
+    <dimen name="stepLinearLayoutMargin">8dp</dimen>
+    <dimen name="videoViewPadding">8dp</dimen>
+    <dimen name="videoViewHeight">300dp</dimen>
+    <dimen name="stepNumberTextSize">20sp</dimen>
+    <dimen name="stepDescriptionMargin">16dp</dimen>
+    <dimen name="stepDescriptionTextSize">16sp</dimen>
+    <dimen name="widgetTitleTextSize">32sp</dimen>
+    <dimen name="widgetTVTopMargin">8dp</dimen>
+    <dimen name="widgetTVPadding">4dp</dimen>
+    <dimen name="WidgetTVTextSize">20sp</dimen>
+    <dimen name="shortDescriptionTextSize">22sp</dimen>
+    <dimen name="shortDescriptionLeftPadding">16dp</dimen>
+    <dimen name="ingredientTextSize">16sp</dimen>
+    <dimen name="ingredientLinearTopPadding">4dp</dimen>
+    <dimen name="ingredientPadding">16dp</dimen>
+    <dimen name="ingredientMargin">16dp</dimen>
+    <dimen name="descriptionPadding">8dp</dimen>
+
+</resources>

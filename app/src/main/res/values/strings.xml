@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Baking App</string>
+
+    <string name="network_error">Communication Error! Please check your Connection</string>
+    <string name="on_response_error">No Response.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="recipe_1">Recipe-1</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="steps">Steps</string>
+    <string name="onClickimplement">\" must implement OnItemClickListener\"</string>
+    <string name="hash">\"# \"</string>
+    <string name="mark">\": \"</string>
+    <string name="nextButtonText">Next</string>
+    <string name="previousButtonText">Previous</string>
+    <string name="step">STEP  </string>
+    <string name="of">  of </string>
+    <string name="videoNotAvailable">\" Video not available for this step\"</string>
+    <string name="AppName">BakingApp</string>
+    <string name="ingredients_of_the_last_recipe">Ingredients of the last Recipe</string>
+    <string name="no_recent_recipe_selected">No Recent Recipe Selected</string>
+    <string name="ingredient_1">Ingredient-1</string>
+    <string name="_250g">250G</string>
+
+</resources>

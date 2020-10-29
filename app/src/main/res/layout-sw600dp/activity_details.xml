@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tab_linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    tools:context="com.example.android.bakingapp.activity.DetailsActivity">
+
+    <!--
+    This layout is a two-pane layout for the master/detail flow.
+    -->
+
+    <!-- The static MasterListFragment -->
+    <FrameLayout
+        android:id="@+id/details_fragment_view"
+        android:name="com.example.android.bakingapp.ui.DetailsFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <!-- A small divider -->
+    <FrameLayout
+        android:id="@+id/step_fragment_view"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:scaleType="centerInside" />
+
+
+    <!-- Three vertically arranged body part fragments - the frame layouts are containers -
+    one for each Android-Me part (head, body, legs) -->
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray" />
+
+
+</LinearLayout>
+
+</layout>

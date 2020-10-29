@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:text="@string/ingredients_of_the_last_recipe"
+        android:textSize="@dimen/widgetTitleTextSize" />
+
+
+    <TextView
+        android:id="@+id/ingredients_recipe_widget_textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/widget_title"
+        android:layout_marginTop="@dimen/widgetTVTopMargin"
+        android:gravity="start"
+        android:padding="@dimen/widgetTVPadding"
+        android:text="@string/no_recent_recipe_selected"
+        android:textSize="@dimen/WidgetTVTextSize" />
+
+
+</RelativeLayout>

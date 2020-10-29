@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/details_fragment_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.DetailsFragment">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/ingredientsBottomPadding"
+            android:text="@string/ingredients"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="@dimen/ingredientsTextSize" />
+
+
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ingredientsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/ingredient_list_item" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_height"
+            android:layout_marginLeft="@dimen/viewMargin"
+            android:layout_marginRight="@dimen/viewMargin" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/tvBottomPadding"
+            android:text="@string/steps"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="@dimen/stepsTitleTextSize" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/stepsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/step_list_item" />
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
